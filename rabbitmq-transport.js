@@ -110,7 +110,7 @@ module.exports = function( options ) {
           var acttopic = topic+'_act'
           var restopic = topic+'_res'
 
-          channel.on('error', send_done);
+          channel.on('error', send_done)
 
           channel.assertQueue(acttopic)
           channel.assertQueue(restopic)

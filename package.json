@@ -1,6 +1,6 @@
 {
   "name": "seneca-rabbitmq-transport",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Seneca RabbitMQ transport",
   "main": "rabbitmq-transport.js",
   "scripts": {
@@ -30,8 +30,10 @@
     "seneca": "*"
   },
   "devDependencies": {
+    "async": "^0.9.0",
     "mocha": "^1.21.4",
     "seneca": "^0.5.19",
+    "seneca-salestax": "^0.1.3",
     "seneca-transport-test": "^0.1.2"
   },
   "files": [
