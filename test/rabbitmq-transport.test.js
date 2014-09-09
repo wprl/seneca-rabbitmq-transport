@@ -7,14 +7,14 @@
 var test = require('seneca-transport-test')
 
 
-describe('redis-transport', function() {
+describe('rabbitmq-transport', function() {
 
   it('happy-any', function( fin ) {
-    test.foo_test( 'redis-transport', require, fin, 'redis', -6379 )
+    test.foo_test( 'rabbitmq-transport', require, fin, 'rabbitmq', -6379 )
   })
 
   it('happy-pin', function( fin ) {
-    test.foo_pintest( 'redis-transport', require, fin, 'redis', -6379 )
+    test.foo_pintest( 'rabbitmq-transport', require, fin, 'rabbitmq', -6379 )
   })
 
 })

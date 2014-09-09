@@ -1,6 +1,6 @@
 {
   "name": "seneca-rabbitmq-transport",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Seneca RabbitMQ transport",
   "main": "rabbitmq-transport.js",
   "scripts": {
